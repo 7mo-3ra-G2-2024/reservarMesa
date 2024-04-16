@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 6vh;
+    background-color: cadetblue;
+
+}
+.colorInfo{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+table{
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid;
+}
+th, td{
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+}
+.mesa{
+    width: 4.5vw;
+    height: 4.5vw;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mesa:hover{
+    transform:scale(1.2);
+    transition: 300ms;
+}
+.reserveButton{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial;
+}
